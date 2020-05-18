@@ -2,4 +2,6 @@
 <p [ngClass]="'one to'">
   Start editing to see some magic happen :)
 </p>
-<div *ngFor="let user of users"[ngClass]="'one four'"></div>
+<div *ngFor="let user of users"[ngClass]="['one four']">
+  {{users}}
+</div>
